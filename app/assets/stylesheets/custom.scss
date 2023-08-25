@@ -1,0 +1,37 @@
+@import "bootstrap";
+
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+.jumbos {
+  background-image: asset-url('jumbo.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+.card-text.text-left { text-align: left !important; }
